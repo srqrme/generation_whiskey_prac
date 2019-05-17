@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :whiskeys
   resources :scores
   resources :users
   get 'welcome/homepage'
